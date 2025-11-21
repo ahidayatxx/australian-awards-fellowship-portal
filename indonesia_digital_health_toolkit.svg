@@ -1,0 +1,341 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" style="background-color: #ffffff;">
+  <!-- Define gradients and filters -->
+  <defs>
+    <!-- Gradient for header -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for foundation -->
+    <linearGradient id="foundationGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for pillars -->
+    <linearGradient id="pillarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for governance -->
+    <linearGradient id="governanceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for outcomes -->
+    <linearGradient id="outcomeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ea580c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Title Section -->
+  <rect x="0" y="0" width="1920" height="140" fill="url(#headerGrad)"/>
+  <text x="960" y="60" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Indonesia Digital Health Transformation Toolkit
+  </text>
+  <text x="960" y="105" font-family="Arial, sans-serif" font-size="24" fill="#e0e7ff" text-anchor="middle">
+    An Integrated Framework for Value-Based Healthcare Innovation
+  </text>
+  
+  <!-- Main Framework Structure -->
+  
+  <!-- Layer 1: Strategic Foundation (Bottom) -->
+  <rect x="120" y="800" width="1680" height="200" rx="15" fill="url(#foundationGrad)" filter="url(#shadow)" opacity="0.95"/>
+  <text x="960" y="840" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    STRATEGIC FOUNDATION
+  </text>
+  
+  <!-- Foundation Components -->
+  <g id="foundation-components">
+    <!-- Design Thinking -->
+    <rect x="180" y="870" width="360" height="110" rx="10" fill="#ffffff" opacity="0.95"/>
+    <text x="360" y="905" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#059669" text-anchor="middle">
+      Design Thinking
+    </text>
+    <text x="360" y="930" font-family="Arial, sans-serif" font-size="13" fill="#374151" text-anchor="middle">
+      Human-Centered Innovation
+    </text>
+    <text x="360" y="950" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Empathy → Define → Ideate
+    </text>
+    <text x="360" y="968" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      → Prototype → Test
+    </text>
+    
+    <!-- Systems Thinking -->
+    <rect x="580" y="870" width="360" height="110" rx="10" fill="#ffffff" opacity="0.95"/>
+    <text x="760" y="905" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#059669" text-anchor="middle">
+      Systems Thinking
+    </text>
+    <text x="760" y="930" font-family="Arial, sans-serif" font-size="13" fill="#374151" text-anchor="middle">
+      Understanding Complexity
+    </text>
+    <text x="760" y="950" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Feedback Loops • Emergent
+    </text>
+    <text x="760" y="968" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Properties • Boundaries
+    </text>
+    
+    <!-- Dual Framework -->
+    <rect x="980" y="870" width="360" height="110" rx="10" fill="#ffffff" opacity="0.95"/>
+    <text x="1160" y="905" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#059669" text-anchor="middle">
+      Dual Framework
+    </text>
+    <text x="1160" y="930" font-family="Arial, sans-serif" font-size="13" fill="#374151" text-anchor="middle">
+      Strategy + Execution
+    </text>
+    <text x="1160" y="950" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Strategic (Why/What) +
+    </text>
+    <text x="1160" y="968" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Reality (How/When/Cost)
+    </text>
+    
+    <!-- Cross-Sector Collaboration -->
+    <rect x="1380" y="870" width="360" height="110" rx="10" fill="#ffffff" opacity="0.95"/>
+    <text x="1560" y="905" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#059669" text-anchor="middle">
+      Multi-Stakeholder
+    </text>
+    <text x="1560" y="930" font-family="Arial, sans-serif" font-size="13" fill="#374151" text-anchor="middle">
+      Cross-Sector Collaboration
+    </text>
+    <text x="1560" y="950" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Government • Academic
+    </text>
+    <text x="1560" y="968" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      • Clinical • Industry
+    </text>
+  </g>
+  
+  <!-- Layer 2: Core Pillars (Middle) -->
+  <rect x="120" y="540" width="1680" height="220" rx="15" fill="url(#pillarGrad)" filter="url(#shadow)" opacity="0.95"/>
+  <text x="960" y="580" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    CORE PILLARS OF DIGITAL HEALTH
+  </text>
+  
+  <!-- Pillar Components -->
+  <g id="pillar-components">
+    <!-- Digital Medicine -->
+    <rect x="180" y="610" width="340" height="130" rx="10" fill="#ffffff" opacity="0.95"/>
+    <text x="350" y="645" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#7c3aed" text-anchor="middle">
+      Digital Medicine
+    </text>
+    <text x="350" y="672" font-family="Arial, sans-serif" font-size="13" fill="#374151" text-anchor="middle">
+      Digital Biomarkers (ABVS)
+    </text>
+    <text x="350" y="692" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Activity • Breathing
+    </text>
+    <text x="350" y="710" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Voice • Sweat
+    </text>
+    <text x="350" y="728" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">
+      Objective physiological data
+    </text>
+    
+    <!-- Digital Dx -->
+    <rect x="560" y="610" width="340" height="130" rx="10" fill="#ffffff" opacity="0.95"/>
+    <text x="730" y="645" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#7c3aed" text-anchor="middle">
+      Digital Diagnostics
+    </text>
+    <text x="730" y="672" font-family="Arial, sans-serif" font-size="13" fill="#374151" text-anchor="middle">
+      Detection &amp; Diagnosis
+    </text>
+    <text x="730" y="692" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      AI-powered screening
+    </text>
+    <text x="730" y="710" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Mobile diagnostics
+    </text>
+    <text x="730" y="728" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">
+      Evidence-based detection
+    </text>
+    
+    <!-- Digital DTx -->
+    <rect x="940" y="610" width="340" height="130" rx="10" fill="#ffffff" opacity="0.95"/>
+    <text x="1110" y="645" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#7c3aed" text-anchor="middle">
+      Digital Therapeutics
+    </text>
+    <text x="1110" y="672" font-family="Arial, sans-serif" font-size="13" fill="#374151" text-anchor="middle">
+      Therapeutic Interventions
+    </text>
+    <text x="1110" y="692" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Clinical-grade software
+    </text>
+    <text x="1110" y="710" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Precision dosing
+    </text>
+    <text x="1110" y="728" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">
+      Evidence-based treatment
+    </text>
+    
+    <!-- Usability/UX -->
+    <rect x="1320" y="610" width="340" height="130" rx="10" fill="#ffffff" opacity="0.95"/>
+    <text x="1490" y="645" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#7c3aed" text-anchor="middle">
+      Usability &amp; UX
+    </text>
+    <text x="1490" y="672" font-family="Arial, sans-serif" font-size="13" fill="#374151" text-anchor="middle">
+      Adoption Enabler
+    </text>
+    <text x="1490" y="692" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Nielsen's Heuristics
+    </text>
+    <text x="1490" y="710" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      System Usability Scale
+    </text>
+    <text x="1490" y="728" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">
+      User-centered design
+    </text>
+  </g>
+  
+  <!-- Layer 3: Responsible Innovation (Top Middle) -->
+  <rect x="120" y="340" width="1680" height="160" rx="15" fill="url(#governanceGrad)" filter="url(#shadow)" opacity="0.95"/>
+  <text x="960" y="380" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    RESPONSIBLE INNOVATION GOVERNANCE
+  </text>
+  
+  <!-- Governance Components -->
+  <g id="governance-components">
+    <rect x="240" y="410" width="300" height="70" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="390" y="437" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#dc2626" text-anchor="middle">
+      Clinical Governance
+    </text>
+    <text x="390" y="458" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      NSQHS Standards
+    </text>
+    <text x="390" y="474" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">
+      Patient safety framework
+    </text>
+    
+    <rect x="580" y="410" width="300" height="70" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="730" y="437" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#dc2626" text-anchor="middle">
+      Data Governance
+    </text>
+    <text x="730" y="458" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Privacy &amp; Security
+    </text>
+    <text x="730" y="474" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">
+      Ethical data stewardship
+    </text>
+    
+    <rect x="920" y="410" width="300" height="70" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="1070" y="437" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#dc2626" text-anchor="middle">
+      Technology Governance
+    </text>
+    <text x="1070" y="458" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Standards &amp; Validation
+    </text>
+    <text x="1070" y="474" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">
+      Evidence-based adoption
+    </text>
+    
+    <rect x="1260" y="410" width="300" height="70" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="1410" y="437" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#dc2626" text-anchor="middle">
+      Financial Governance
+    </text>
+    <text x="1410" y="458" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">
+      Value Assessment
+    </text>
+    <text x="1410" y="474" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">
+      Sustainable investment
+    </text>
+  </g>
+  
+  <!-- Layer 4: Value-Based Outcomes (Top) -->
+  <rect x="120" y="160" width="1680" height="140" rx="15" fill="url(#outcomeGrad)" filter="url(#shadow)" opacity="0.95"/>
+  <text x="960" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    VALUE-BASED OUTCOMES
+  </text>
+  
+  <!-- Outcome Components -->
+  <g id="outcome-components">
+    <rect x="200" y="225" width="320" height="60" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="360" y="250" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">
+      Improve Health Equity
+    </text>
+    <text x="360" y="270" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+      Accessible care for all populations
+    </text>
+    
+    <rect x="560" y="225" width="320" height="60" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="720" y="250" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">
+      Reduce Cost of Care
+    </text>
+    <text x="720" y="270" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+      Efficiency &amp; resource optimization
+    </text>
+    
+    <rect x="920" y="225" width="320" height="60" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="1080" y="250" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">
+      Improve Population Health
+    </text>
+    <text x="1080" y="270" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+      Better clinical outcomes at scale
+    </text>
+    
+    <rect x="1280" y="225" width="320" height="60" rx="8" fill="#ffffff" opacity="0.95"/>
+    <text x="1440" y="250" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">
+      Enhance Patient Experience
+    </text>
+    <text x="1440" y="270" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+      Satisfaction &amp; engagement
+    </text>
+  </g>
+  
+  <!-- Connecting Arrows (Flow) -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Arrow from Foundation to Pillars -->
+  <path d="M 960 795 L 960 765" stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Arrow from Pillars to Governance -->
+  <path d="M 960 535 L 960 505" stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Arrow from Governance to Outcomes -->
+  <path d="M 960 335 L 960 305" stroke="#64748b" stroke-width="4" fill="none" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Side Labels -->
+  <text x="50" y="900" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#059669" writing-mode="tb" transform="rotate(-90 50 900)">
+    MINDSET
+  </text>
+  
+  <text x="50" y="650" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7c3aed" writing-mode="tb" transform="rotate(-90 50 650)">
+    TOOLS
+  </text>
+  
+  <text x="50" y="420" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#dc2626" writing-mode="tb" transform="rotate(-90 50 420)">
+    SAFETY
+  </text>
+  
+  <text x="50" y="250" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ea580c" writing-mode="tb" transform="rotate(-90 50 250)">
+    IMPACT
+  </text>
+  
+  <!-- Footer -->
+  <text x="960" y="1050" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle" font-style="italic">
+    Australia Awards Fellowship • Integrated Framework for Indonesia's Digital Health Transformation Journey
+  </text>
+  
+</svg>
