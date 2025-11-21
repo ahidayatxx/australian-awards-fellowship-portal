@@ -40,7 +40,7 @@ This repository contains the project portal for the Australia Awards Fellowship 
 ## Team
 
 ### Monash University Australia
-- Prof. Julian Sutanto - Program coordination and digital transformation expertise
+- Prof. Juliana Sutanto - Program coordination and digital transformation expertise
 - Prof. Chris Bain - Health informatics and healthcare system integration
 - Dr. Caddie Gao - Health technology assessment and evaluation frameworks
 
