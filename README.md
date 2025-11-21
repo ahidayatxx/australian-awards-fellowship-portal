@@ -6,12 +6,11 @@ This repository contains the project portal for the Australia Awards Fellowship 
 
 ## Access the Portal
 
-**Live Project Portal:** [https://ahmadhidayat.github.io/australia-awards-fellowship-portal/](https://ahmadhidayat.github.io/australia-awards-fellowship-portal/)
+**Live Project Portal:** [https://ahidayatxx.github.io/australian-awards-fellowship-portal/project_portal.html](https://ahidayatxx.github.io/australian-awards-fellowship-portal/project_portal.html)
 
 ## About the Program
 
 - **Timeline:** November 8, 2025 - February 21, 2026 (15 weeks)
-- **Budget:** AUD $444,649 ($253,585 DFAT funded)
 - **Participants:** 9 fellows (5 government from TWG SATUSEHAT, 4 academic from eastern Indonesia universities)
 - **Objective:** Implement value-based digital health transformation through intensive fellowship program
 
@@ -64,5 +63,4 @@ This repository contains the project portal for the Australia Awards Fellowship 
 
 ---
 
-**Funding:** Department of Foreign Affairs and Trade (DFAT), Australia
 **Implementation:** Monash University in partnership with Indonesian Ministry of Health
