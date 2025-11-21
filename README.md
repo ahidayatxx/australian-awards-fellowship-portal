@@ -63,4 +63,5 @@ This repository contains the project portal for the Australia Awards Fellowship 
 
 ---
 
+**Funding:** Department of Foreign Affairs and Trade (DFAT), Australia
 **Implementation:** Monash University in partnership with Indonesian Ministry of Health
