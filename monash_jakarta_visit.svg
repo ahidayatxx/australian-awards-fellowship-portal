@@ -1,0 +1,408 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" style="background-color: #ffffff;">
+  <!-- Define gradients and filters -->
+  <defs>
+    <!-- Gradient for header -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for visit info -->
+    <linearGradient id="visitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for activities -->
+    <linearGradient id="activityGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for framework refinement -->
+    <linearGradient id="frameworkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Title Section -->
+  <rect x="0" y="0" width="1920" height="120" fill="url(#headerGrad)"/>
+  <text x="960" y="55" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Monash Team Visit to Jakarta
+  </text>
+  <text x="960" y="95" font-family="Arial, sans-serif" font-size="22" fill="#e0e7ff" text-anchor="middle">
+    Phase 3: Government Sector Implementation • Framework Refinement in Context
+  </text>
+  
+  <!-- Section 1: Visit Details & Timeline -->
+  <rect x="60" y="150" width="560" height="340" rx="12" fill="url(#visitGrad)" filter="url(#shadow)" opacity="0.95"/>
+  <text x="340" y="190" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    VISIT DETAILS &amp; TIMELINE
+  </text>
+  
+  <!-- Visit Info Box -->
+  <rect x="90" y="210" width="500" height="260" rx="8" fill="#ffffff" opacity="0.95"/>
+  
+  <!-- Date Section -->
+  <circle cx="120" cy="245" r="8" fill="#0891b2"/>
+  <text x="145" y="250" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0891b2">
+    Travel Dates
+  </text>
+  <text x="145" y="272" font-family="Arial, sans-serif" font-size="13" fill="#374151">
+    Saturday, December 13 - Friday, December 19, 2025
+  </text>
+  
+  <!-- Working Days -->
+  <circle cx="120" cy="305" r="8" fill="#0891b2"/>
+  <text x="145" y="310" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0891b2">
+    Working Days
+  </text>
+  <text x="145" y="332" font-family="Arial, sans-serif" font-size="13" fill="#374151">
+    4 days (Monday Dec 15 - Thursday Dec 18, 2025)
+  </text>
+  
+  <!-- Location -->
+  <circle cx="120" cy="365" r="8" fill="#0891b2"/>
+  <text x="145" y="370" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0891b2">
+    Location
+  </text>
+  <text x="145" y="392" font-family="Arial, sans-serif" font-size="13" fill="#374151">
+    Jakarta, Indonesia
+  </text>
+  
+  <!-- Sector Focus -->
+  <circle cx="120" cy="425" r="8" fill="#0891b2"/>
+  <text x="145" y="430" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0891b2">
+    Sector Focus
+  </text>
+  <text x="145" y="452" font-family="Arial, sans-serif" font-size="13" fill="#374151">
+    Government Sector (Ministry of Health)
+  </text>
+  
+  <!-- Section 2: Key Activities -->
+  <rect x="660" y="150" width="600" height="340" rx="12" fill="url(#activityGrad)" filter="url(#shadow)" opacity="0.95"/>
+  <text x="960" y="190" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    KEY ENGAGEMENT ACTIVITIES
+  </text>
+  
+  <!-- Activities Box -->
+  <rect x="690" y="210" width="540" height="260" rx="8" fill="#ffffff" opacity="0.95"/>
+  
+  <!-- Ministry of Health Engagement -->
+  <rect x="710" y="230" width="500" height="70" rx="6" fill="#f3f4f6" stroke="#7c3aed" stroke-width="2"/>
+  <text x="960" y="255" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#7c3aed" text-anchor="middle">
+    Ministry of Health (Kemenkes) Engagement
+  </text>
+  <text x="960" y="275" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">
+    Policy &amp; Governance Framework Validation
+  </text>
+  <text x="960" y="291" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+    Regulatory complexity assessment • Approval process mapping
+  </text>
+  
+  <!-- Hospital Management -->
+  <rect x="710" y="315" width="500" height="70" rx="6" fill="#f3f4f6" stroke="#7c3aed" stroke-width="2"/>
+  <text x="960" y="340" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#7c3aed" text-anchor="middle">
+    Hospital Management Consultations
+  </text>
+  <text x="960" y="360" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">
+    Day 2: Innovation Sandbox Prototype Testing
+  </text>
+  <text x="960" y="376" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+    Cultural resistance factors • Implementation barriers
+  </text>
+  
+  <!-- Stakeholder Input -->
+  <rect x="710" y="400" width="500" height="55" rx="6" fill="#f3f4f6" stroke="#7c3aed" stroke-width="2"/>
+  <text x="960" y="422" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#7c3aed" text-anchor="middle">
+    Multi-Stakeholder Input Collection
+  </text>
+  <text x="960" y="442" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">
+    Qualitative &amp; quantitative success metrics definition
+  </text>
+  
+  <!-- Section 3: Program Context -->
+  <rect x="1300" y="150" width="560" height="340" rx="12" fill="#dc2626" filter="url(#shadow)" opacity="0.92"/>
+  <text x="1580" y="190" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    PROGRAM CONTEXT
+  </text>
+  
+  <!-- Context Box -->
+  <rect x="1330" y="210" width="500" height="260" rx="8" fill="#ffffff" opacity="0.95"/>
+  
+  <text x="1580" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">
+    Phase 3: Government Implementation
+  </text>
+  <text x="1580" y="262" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">
+    Bridge between theoretical framework
+  </text>
+  <text x="1580" y="280" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">
+    and practical implementation
+  </text>
+  
+  <line x1="1380" y1="295" x2="1780" y2="295" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <text x="1580" y="318" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">
+    Phase 6: Academic Implementation
+  </text>
+  <text x="1580" y="340" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">
+    January 2026 • Manado &amp; Gorontalo
+  </text>
+  <text x="1580" y="358" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">
+    Regional academic sector validation
+  </text>
+  
+  <line x1="1380" y1="373" x2="1780" y2="373" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <text x="1580" y="395" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#059669" text-anchor="middle">
+    Cross-Sector Framework Validation
+  </text>
+  <text x="1580" y="415" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+    Government sector (Phase 3) insights inform
+  </text>
+  <text x="1580" y="432" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+    academic sector implementation (Phase 6)
+  </text>
+  <text x="1580" y="453" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">
+    Ensuring comprehensive national coverage
+  </text>
+  
+  <!-- Section 4: Framework Refinement Focus Areas -->
+  <rect x="60" y="520" width="1800" height="500" rx="12" fill="url(#frameworkGrad)" filter="url(#shadow)" opacity="0.95"/>
+  <text x="960" y="565" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    FRAMEWORK REFINEMENT: FOUR CRITICAL DIMENSIONS
+  </text>
+  
+  <!-- Four Refinement Areas -->
+  <g id="refinement-areas">
+    <!-- Area 1: Indonesian Context Adaptation -->
+    <rect x="90" y="590" width="405" height="400" rx="10" fill="#ffffff" opacity="0.95"/>
+    <rect x="90" y="590" width="405" height="50" rx="10" fill="#059669" opacity="0.9"/>
+    <text x="292" y="623" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      1. Indonesian Context Adaptation
+    </text>
+    
+    <text x="292" y="670" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#059669">
+      Integration Focus:
+    </text>
+    <text x="120" y="695" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Comprehensive Framework
+    </text>
+    <text x="135" y="715" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      ("Implementation Excellence")
+    </text>
+    <text x="120" y="738" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Eight Critical Domains including:
+    </text>
+    <text x="135" y="758" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      - Policy &amp; Governance
+    </text>
+    <text x="135" y="775" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      - Regulatory Complexity
+    </text>
+    <text x="135" y="792" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      - Stakeholder Alignment
+    </text>
+    
+    <text x="292" y="825" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#059669">
+      Kemenkes Facilitation:
+    </text>
+    <text x="120" y="848" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      Direct engagement with Ministry to validate
+    </text>
+    <text x="120" y="865" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      regulatory pathways and governance
+    </text>
+    <text x="120" y="882" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      structures specific to Indonesian health
+    </text>
+    <text x="120" y="899" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      policy environment
+    </text>
+    
+    <rect x="110" y="920" width="365" height="50" rx="6" fill="#ecfdf5"/>
+    <text x="292" y="945" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#059669" text-anchor="middle">
+      Outcome: Context-Specific Framework
+    </text>
+    <text x="292" y="962" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">
+      Aligned with Indonesian regulatory landscape
+    </text>
+    
+    <!-- Area 2: Risk Mitigation -->
+    <rect x="525" y="590" width="405" height="400" rx="10" fill="#ffffff" opacity="0.95"/>
+    <rect x="525" y="590" width="405" height="50" rx="10" fill="#059669" opacity="0.9"/>
+    <text x="727" y="623" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      2. Risk Mitigation Strategy
+    </text>
+    
+    <text x="727" y="670" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dc2626">
+      Common Failure Patterns:
+    </text>
+    <text x="555" y="695" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Regulatory Delays
+    </text>
+    <text x="570" y="715" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      Health policy approval process
+    </text>
+    <text x="570" y="732" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      bottlenecks in Indonesia
+    </text>
+    <text x="555" y="755" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Cultural Resistance
+    </text>
+    <text x="570" y="775" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      Healthcare workforce adoption
+    </text>
+    <text x="570" y="792" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      barriers and change management
+    </text>
+    
+    <text x="727" y="825" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#059669">
+      Validation Approach:
+    </text>
+    <text x="555" y="848" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      Direct consultation with Kemenkes officials
+    </text>
+    <text x="555" y="865" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      and hospital managers to verify identified
+    </text>
+    <text x="555" y="882" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      risks and co-develop mitigation strategies
+    </text>
+    <text x="555" y="899" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      grounded in local operational reality
+    </text>
+    
+    <rect x="545" y="920" width="365" height="50" rx="6" fill="#fef2f2"/>
+    <text x="727" y="945" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#dc2626" text-anchor="middle">
+      Outcome: Evidence-Based Risk Registry
+    </text>
+    <text x="727" y="962" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">
+      With stakeholder-validated mitigation plans
+    </text>
+    
+    <!-- Area 3: Innovation Sandbox -->
+    <rect x="960" y="590" width="405" height="400" rx="10" fill="#ffffff" opacity="0.95"/>
+    <rect x="960" y="590" width="405" height="50" rx="10" fill="#059669" opacity="0.9"/>
+    <text x="1162" y="623" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      3. Innovation Sandbox Development
+    </text>
+    
+    <text x="1162" y="670" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#7c3aed">
+      Operational Model:
+    </text>
+    <text x="990" y="695" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Safe Testing Environment
+    </text>
+    <text x="1005" y="715" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      Controlled prototype validation
+    </text>
+    <text x="990" y="738" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Regulatory Compliance Framework
+    </text>
+    <text x="1005" y="758" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      Aligned with Indonesian standards
+    </text>
+    <text x="990" y="781" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Stakeholder Feedback Loops
+    </text>
+    <text x="1005" y="801" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">
+      Iterative refinement mechanism
+    </text>
+    
+    <text x="1162" y="834" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#059669">
+      Day 2 Testing:
+    </text>
+    <text x="990" y="857" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      Prototype testing with hospital managers
+    </text>
+    <text x="990" y="874" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      to validate operational feasibility and
+    </text>
+    <text x="990" y="891" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      identify implementation barriers in real-
+    </text>
+    <text x="990" y="908" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      world clinical management contexts
+    </text>
+    
+    <rect x="980" y="920" width="365" height="50" rx="6" fill="#f5f3ff"/>
+    <text x="1162" y="945" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7c3aed" text-anchor="middle">
+      Outcome: Validated Sandbox Model
+    </text>
+    <text x="1162" y="962" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">
+      Ready for scaled implementation
+    </text>
+    
+    <!-- Area 4: Value-Based Focus -->
+    <rect x="1395" y="590" width="405" height="400" rx="10" fill="#ffffff" opacity="0.95"/>
+    <rect x="1395" y="590" width="405" height="50" rx="10" fill="#059669" opacity="0.9"/>
+    <text x="1597" y="623" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      4. Value-Based Digital Health Focus
+    </text>
+    
+    <text x="1597" y="670" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ea580c">
+      Success Metrics - Qualitative:
+    </text>
+    <text x="1425" y="695" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Stakeholder Engagement Levels
+    </text>
+    <text x="1425" y="715" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Policy Alignment Quality
+    </text>
+    <text x="1425" y="735" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Change Readiness Assessment
+    </text>
+    
+    <text x="1597" y="768" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ea580c">
+      Success Metrics - Quantitative:
+    </text>
+    <text x="1425" y="793" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Healthcare Service Efficiency
+    </text>
+    <text x="1425" y="813" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Cost-Effectiveness Ratios
+    </text>
+    <text x="1425" y="833" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+      • Population Health Outcomes
+    </text>
+    
+    <text x="1597" y="866" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#059669">
+      Stakeholder Input:
+    </text>
+    <text x="1425" y="889" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      Direct input collection establishes baseline
+    </text>
+    <text x="1425" y="906" font-family="Arial, sans-serif" font-size="11" fill="#374151">
+      metrics and validates value framework
+    </text>
+    
+    <rect x="1415" y="920" width="365" height="50" rx="6" fill="#fff7ed"/>
+    <text x="1597" y="945" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ea580c" text-anchor="middle">
+      Outcome: Measurable Value Framework
+    </text>
+    <text x="1597" y="962" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">
+      With stakeholder-defined success criteria
+    </text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="960" y="1050" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle" font-style="italic">
+    Australia Awards Fellowship • Phase 3 Implementation Visit • December 2025
+  </text>
+  
+</svg>
